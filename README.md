@@ -1,0 +1,1 @@
+A program that I wrote because I like warp terminal but it killed my glorified capacitor that is my laptop battery when I wasn't plugged in, so this program will just launch konsole if I'm not charging
