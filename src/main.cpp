@@ -22,7 +22,8 @@ int main() {
 
     std::cout << status << std::endl;
     // Basically if it can't find the word(s) in the string it will fail, npos just means null position (I think??)
-    if (status.find("discharging") != std::string::npos || status.find("not charging") != std::string::npos) {
+    std::cout << status;
+    if (status.find("discharging") != std::string::npos) {
         system("konsole > /dev/null&");
     } else {
         system("warp-terminal > /dev/null&");
